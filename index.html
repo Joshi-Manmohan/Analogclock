@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Analog Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="clock-container">
+        <div class="clock">
+            <div class="clock-face">
+                <!-- Hour markers -->
+                <div class="marker hour-marker" style="--i:0;">12</div>
+                <div class="marker hour-marker" style="--i:1;">1</div>
+                <div class="marker hour-marker" style="--i:2;">2</div>
+                <div class="marker hour-marker" style="--i:3;">3</div>
+                <div class="marker hour-marker" style="--i:4;">4</div>
+                <div class="marker hour-marker" style="--i:5;">5</div>
+                <div class="marker hour-marker" style="--i:6;">6</div>
+                <div class="marker hour-marker" style="--i:7;">7</div>
+                <div class="marker hour-marker" style="--i:8;">8</div>
+                <div class="marker hour-marker" style="--i:9;">9</div>
+                <div class="marker hour-marker" style="--i:10;">10</div>
+                <div class="marker hour-marker" style="--i:11;">11</div>
+            </div>
+            <div class="hand hour-hand"></div>
+            <div class="hand minute-hand"></div>
+            <div class="hand second-hand"></div>
+            <div class="center-dot"></div>
+        </div>
+        <div class="digital-display">
+            <div class="time" id="time"></div>
+            <div class="date" id="date"></div>
+            <div class="location" id="location"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
